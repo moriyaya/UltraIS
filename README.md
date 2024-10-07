@@ -2,7 +2,10 @@
 By Jiaxin Gao, Ziyu Yue, Yaohua Liu, Sihan Xie, Xin Fan, Risheng Liu
 
 ## Pipeline
-![Pipeline Diagram](./Figures/pipeline.png)
+<p align="center">
+    <img src="./Figures/pipeline.png" alt="pipeline" width="80%">
+</p>
+
 
 ## Dependencies
 ```
@@ -37,12 +40,12 @@ python evaluate.py
 ## Results
 - Visual comparison
 <p align="center">
-    <img src="./Figures/result1.png" alt="result1" width="70%">
+    <img src="./Figures/result1.png" alt="result1" width="80%">
 </p>
 
 - Benchmark Evaluation
 <p align="center">
-    <img src="./Figures/result2.png" alt="result2" width="70%">
+    <img src="./Figures/result2.png" alt="result2" width="80%">
 </p>
 
 ## Citation
