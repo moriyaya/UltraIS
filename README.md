@@ -33,9 +33,17 @@ python train.py
 python evaluate.py
 ```
 
-## Visual comparison
-![](./Figures/visual1.png)
-![](./Figures/visual2.png)
+
+## Results
+- Visual comparison
+<p align="center">
+    <img src="./Figures/result1.png" alt="result1" width="70%">
+</p>
+
+- Benchmark Evaluation
+<p align="center">
+    <img src="./Figures/result2.png" alt="result2" width="70%">
+</p>
 
 ## Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
