@@ -16,7 +16,7 @@ RELLISUR dataset: Andreas Aakerberg, Kamal Nasrollahi, Thomas Moeslund. "RELLISU
 ### Unpaired dataset 
 Please refer to DARK FACE dataset: Yang, Wenhan and Yuan, Ye and Ren, Wenqi and Liu, Jiaying and Scheirer, Walter J. and Wang, Zhangyang and Zhang, and et al. "DARK FACE: Face Detection in Low Light Condition". IEEE Transactions on Image Processing, 2020. [DARK FACE](https://flyywh.github.io/CVPRW2019LowLight/)
 
-Please refer to Dark Zurich dataset: Christos Sakaridis, Dengxin Dai, Luc van Gool. "Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation". ICCV, 2019. [Dark Zurich](https://www.trace.ethz.ch/publications/2019/GCMA UIoU/)
+Please refer to Dark Zurich dataset: Christos Sakaridis, Dengxin Dai, Luc van Gool. "Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation". ICCV, 2019. [Dark Zurich](https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/)
 
 
 ## Pre-trained Models 
