@@ -9,7 +9,11 @@ By Jiaxin Gao, Ziyu Yue, Yaohua Liu, Sihan Xie, Xin Fan, Risheng Liu
 
 ## Dependencies
 ```
+# Install basicsr - https://github.com/xinntao/BasicSR
+pip install basicsr
+pip install facexlib gfpgan
 pip install -r requirements.txt
+python setup.py develop
 ````
 
 ## Download the raw training and evaluation datasets
@@ -62,7 +66,7 @@ If you use this code or ideas from the paper for your research, please cite our 
 ```
 
 ## Acknowledgement
-Part of the code is adapted from previous works: [Restormer](https://github.com/swz30/Restormer) and [MIRNet](https://github.com/swz30/MIRNet) (code structure). We thank all the authors for their contributions.
+Part of the code is adapted from previous works: [Restormer](https://github.com/swz30/Restormer) and [BasicSR](https://github.com/xinntao/BasicSR) (code structure). We thank all the authors for their contributions.
 
 Please contact me if you have any questions at: jiaxinn.gao@outlook.com
 
