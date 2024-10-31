@@ -30,14 +30,24 @@ Please refer to Dark Zurich dataset: Christos Sakaridis, Dengxin Dai, Luc van Go
 You can download our pre-trained model from [[Google Drive]](https://drive.google.com/drive/folders/1m3t15rWw76IDDWJ0exLOe5P0uEnjk3zl?usp=drive_link) and [[Baidu Yun (extracted code:cjzk)]](https://pan.baidu.com/s/1fPLVgnZbdY1n75Flq54bMQ)
 
 ## How to train?
-You need to modify ```datasets/dataset.py``` slightly for your environment, and then
+Depending on the task you want to execute, choose the appropriate command:
+For 2x Scaling Task
+Run the following command to start training the 2x scaling task:
 ```
-python train.py  
+sh train.sh Super_Resolution/Options/CSDLLSR_v9_7_5_3_scale2.yml
+```
+For 4x Scaling Task
+Run the following command to start training the 4x scaling task:
+```
+sh train.sh Super_Resolution/Options/CSDLLSR_v9_7_5_3_scale4.yml    
 ```
 
 ## How to test?
 ```
-python evaluate.py
+sh test.sh Super_Resolution/Options/CSDLLSR_v9_7_5_3_scale2_test.yml
+```
+```
+sh test.sh Super_Resolution/Options/CSDLLSR_v9_7_5_3_scale4_test.yml    
 ```
 
 
